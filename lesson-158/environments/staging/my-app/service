@@ -5,9 +5,9 @@ metadata:
   namespace: foo
 spec:
   selector:
-    app: nginix
+    app: nginx  # Corrected from nginix to nginx
   ports:
     - protocol: TCP
       port: 80
       targetPort: 8080
-  type:NodePort
+  type: NodePort  # Ensured proper capitalization
